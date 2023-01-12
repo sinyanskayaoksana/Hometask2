@@ -1,0 +1,72 @@
+// Mixins
+@mixin flex-row () {
+    display: flex;
+    flex-direction: row;
+}
+@mixin flex-column () {
+    display: flex;
+    flex-direction: column;
+}
+@mixin box-shadow (){
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 
+                0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+                0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 
+                0px 20px 13px rgba(0, 0, 0, 0.01), 
+                0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 
+                0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+  //Fonts mixins
+@mixin font-google-sans400 () {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+@mixin font-google-sans500 () {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+}
+@mixin font-poppins700 () {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+@mixin font-poppins500 () {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+@mixin font-poppins600() {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: $main-color;
+}
+@mixin font-volkhov700() {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+}
+@mixin font-open-sans600() {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: $color-h4;
+}
+@mixin font-poppins400() {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+@mixin font-montserrat () {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
